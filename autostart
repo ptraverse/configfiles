@@ -1,0 +1,7 @@
+#!/bin/bash
+export PS1="\[\e[00;37m\]\u@\W\\$ \[\e[0m\]"
+cd /home/philippe/
+sudo mount -t vboxsf workspace /home/philippe/workspace
+cd /home/philippe/workspace
+clear
+ls -lart
